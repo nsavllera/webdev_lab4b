@@ -29,15 +29,11 @@
 
                                 ]
                         };
-
-        console.log(bookData.Books[0].name);
-        console.log(bookData.Books[0].matricNo);
-
-        // Loop through the students and display the subjects
-        bookData.Books.forEach(book => {
-            console.log(book.subjects);
-        });
-
+        
+            console.log("Title of the first book:", bookData.Books[0].title);
+            console.log("Author of the second book:", bookData.Books[1].author);
+            bookData.Books.forEach(book => {console.log("The genres of all books:",book.genres);});
+        
     </script>
 </body>
 </html>
